@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    config:
+      enabled: false
+
+feign:
+  name: employees
+  url: http://masglobaltestapi.azurewebsites.net/api/
